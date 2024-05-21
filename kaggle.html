@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaggle Projects</title>
+    <link rel="stylesheet" href="assets/css/johndoe.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            width: 100%;
+            background-color: #f8f9fa;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar {
+            margin: 0;
+            padding: 0.5rem 1rem;
+        }
+        .projectkg1-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px;
+        }
+        .projectkg1 {
+            margin-bottom: 30px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 250%;
+            box-sizing: border-box;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .short-description {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* number of lines to show */
+            -webkit-box-orient: vertical;
+        }
+        .read-more {
+            text-align: center;
+            margin-top: 10px;
+            color: #007bff;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .read-more:hover {
+            text-decoration: none;
+        }
+        .full-description {
+            display: none;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="C:\Users\shathamubarak\HTML.POWEBI\index.HTML">CV</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="C:\Users\shathamubarak\HTML.POWEBI\index.HTML">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Project Cards Container -->
+    <div class="projectkg1-container">
+        <div class="projectkg1">
+            <h2>تصورات بيانية لتحليل سلوك المستخدم وتوجهات التسوق</h2>
+            <img src="C:/Users/shathamubarak/HTML.POWEBI/img/cus.png" alt="صورة المشروع 1">
+            <div class="short-description">
+                <p>يعتمد هذا المشروع على تصورات بيانية مدهشة لاستكشاف وتحليل سلوك المستخدم وتوجهات التسوق بشكل مبتكر.</p>
+            </div>
+            <div class="full-description" style="display: none;">
+                <p>يعتمد هذا المشروع على تصورات بيانية مدهشة لاستكشاف وتحليل سلوك المستخدم وتوجهات التسوق بشكل مبتكر. يتم استخدام البيانات المتاحة وتحليلها لاستخلاص الأنماط والمعلومات القيمة. من خلال هذا المشروع، ستكون قادرًا على استكشاف أنماط التسوق الشائعة والفئات الأكثر رواجًا والتغيرات الزمنية في الاهتمامات التسويقية. ستتوفر لك تصورات بيانية مدهشة تعزز فهمك لعادات التسوق وتفضيلات العملاء، مما يمكنك من اتخاذ قرارات استراتيجية مستنيرة وتحقيق نجاح في استراتيجيات التسويق.</p>
+            </div>
+            <a href=" " target="_blank" class="read-more" onclick="toggleDescription(this); return false;">للمزيد للقراءة</a>
+            <a href="https://www.kaggle.com/code/shathamubarak/visualization-for-customer-shopping-trends" target="_blank">زيارة المشروع</a>
+        </div> 
+
+        <div class="projectkg1">
+            <h2>تعليم الآلة على تصنيف التشخيص</h2>
+            <img src="C:/Users/shathamubarak/HTML.POWEBI/img/deg.jpg" alt="صورة المشروع 1">
+            <div class="short-description">
+                <p>تم تعليم الذكاء الاصطناعي على تصنيف حالات الإصابة وعدم الإصابة بدقة وفعالية.</p>
+            </div>
+            <div class="full-description" style="display: none;">
+                <p>تم تعليم الذكاء الاصطناعي على تصنيف حالات الإصابة وعدم الإصابة بدقة وفعالية. تم تدريب النظام باستخدام العديد من البيانات الطبية المتاحة وتعلم الأنماط والمعايير التي تميز تشخيص الحالات المصابة عن الحالات غير المصابة. بفضل التدريب المكثف، يكون لدي القدرة على تصنيف الحالات</p>
+            </div>
+            <a href="" target="_blank" class="read-more" onclick="toggleDescription(this); return false;">للمزيد للقراءة</a>
+            <a href="https://www.kaggle.com/code/shathamubarak/classifiction-full-project/notebook" target="_blank">زيارة المشروع</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleDescription(link) {
+            var shortDescription = link.parentNode.querySelector('.short-description');
+            var fullDescription = link.parentNode.querySelector('.full-description');
+    
+            if (shortDescription.style.display === 'none') {
+                shortDescription.style.display = 'block';
+                fullDescription.style.display = 'none';
+                link.textContent = 'للمزيد للقراءة';
+            } else {
+                shortDescription.style.display = 'none';
+                fullDescription.style.display = 'block';
+                link.textContent = 'إخفاء';
+            }
+        }
+    </script>
+</body>
+</html>
